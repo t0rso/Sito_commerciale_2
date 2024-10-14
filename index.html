@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        a {
+           text-decoration: none;
+        }
+        td {
+            border: 10px #fff solid;
+            background-color: #f9f9f9;      
+            padding: 15px;   
+        }
+        nav{
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 19px;
+        }
+        img {
+            border-radius: 10px;
+            transition: transform 0.5s ease;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LineaCasa-Home</title>
+</head>
+<body style="margin: 0;">
+    <header style="border-bottom: 1px solid #eee;">
+        <nav>
+            <a href="index.html"><img src="immagini/logo.png" alt="LineaCasa_Logo" style="width: 20%;"></a>
+            <ul style="list-style: none; display: flex; gap: 20px;">
+                <li><a href="index.html" style="color: #333; text-decoration: none; transition: color 0.3s ease;"
+                    onmouseover="this.style.color='lightblue';" 
+                    onmouseout="this.style.color='#333';">Home</a></li>
+                <li><a href="about.html" style="color: #333; text-decoration: none; transition: color 0.3s ease;"
+                    onmouseover="this.style.color='lightblue';" 
+                    onmouseout="this.style.color='#333';">About Us</a></li>
+                <li><a href="gallery.html" style="color: #333; text-decoration: none; transition: color 0.3s ease;"
+                    onmouseover="this.style.color='lightblue';" 
+                    onmouseout="this.style.color='#333';">Gallery</a></li>
+                <li><a href="contact.html" style="color: #333; text-decoration: none; transition: color 0.3s ease;"
+                    onmouseover="this.style.color='lightblue';" 
+                    onmouseout="this.style.color='#333';">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div style="background-image: url(immagini/hero_img.png); background-size: cover; background-position: center center; height: 80vh; align-items: center; justify-content: center; display: flex; text-align: center; flex-direction: column;">
+            <h1 style="color: #333; margin-bottom: 0; font-size: 50px;">LineaCasa</h1>
+            <a href="gallery.html" style="background-color: lightblue; border-radius: 5px; padding: 10px 25px;
+             color: white; margin-top: 20px; transition: background-color 0.3s ease;" 
+   onmouseover="this.style.backgroundColor='#333';" 
+   onmouseout="this.style.backgroundColor='lightblue';"
+             >Vai allo Shop </a>
+        </div>
+        <div>
+            <table style="width: 100%;">
+                <caption style="font-size: 35px;">Nuovi Articoli</caption>
+                <tr style="text-align: center;">
+                    <td><img src="immagini/prodotto_1.webp" alt="prodotto_1" style="width: 100%;"><p><b>Divano Componibile </b><br>299€</p></td>
+                    <td><img src="immagini/prodotto_2.jpeg" alt="prodotto_2" style="width: 100%;"><p><b>Tavolo Moderno In Quercia</b> <br>499€</p></td>
+                    <td><img src="immagini/prodotto_3.webp" alt="prodotto_3" style="width: 100%;"><p><b>Set Divano Minimal </b><br>799€</p></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer style="text-align: center; background-color: #333; color: #fff;">
+        <p><br>&nbsp;</p>
+        <small>C.E.O. - Michele Torsani | Software Engineer - Michele Torsani | Progettista - Michele Torsani | Responsabile Marketing - Michele Torsani</small>
+        <p>&copy; 2024 LineaCasa.</p>
+        <p><br>&nbsp;</p>
+    </footer>
+</body>
+</html>
